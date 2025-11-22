@@ -12,7 +12,6 @@ import AboutUs from './components/AboutUs';
 import Footer from './components/Footer';
 import ScrollToTopButton from './components/ScrollToTopButton';
 
-// --- MAIN APP COMPONENT ---
 export default function App() {
   return (
     <div className="bg-walor-dark">
