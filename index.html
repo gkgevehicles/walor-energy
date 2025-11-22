@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,55 +12,53 @@
         theme: {
           extend: {
             colors: {
-              "walor-blue": "#3B82F6",
-              "walor-dark": "#0F172A",
-              "walor-gray": "#64748B",
-              "walor-light": "#F1F5F9",
+              'walor-blue': '#3B82F6',
+              'walor-dark': '#0F172A',
+              'walor-gray': '#64748B',
+              'walor-light': '#F1F5F9',
             },
             fontFamily: {
-              sans: ["Inter", "sans-serif"],
+              sans: ['Inter', 'sans-serif'],
             },
             animation: {
-              "fade-in-up": "fadeInUp 0.8s ease-out forwards",
-              "slide-in-left": "slideInLeft 1s ease-out forwards",
-              "slide-in-right": "slideInRight 1s ease-out forwards",
+              'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+              'slide-in-left': 'slideInLeft 1s ease-out forwards',
+              'slide-in-right': 'slideInRight 1s ease-out forwards',
             },
             keyframes: {
               fadeInUp: {
-                "0%": { opacity: "0", transform: "translateY(20px)" },
-                "100%": { opacity: "1", transform: "translateY(0)" },
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
               },
               slideInLeft: {
-                "0%": { opacity: "0", transform: "translateX(-50px)" },
-                "100%": { opacity: "1", transform: "translateX(0)" },
+                '0%': { opacity: '0', transform: 'translateX(-50px)' },
+                '100%': { opacity: '1', transform: 'translateX(0)' },
               },
               slideInRight: {
-                "0%": { opacity: "0", transform: "translateX(50px)" },
-                "100%": { opacity: "1", transform: "translateX(0)" },
+                '0%': { opacity: '0', transform: 'translateX(50px)' },
+                '100%': { opacity: '1', transform: 'translateX(0)' },
               },
             },
           },
         },
-      };
-    </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <script type="importmap">
-      {
-        "imports": {
-          "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-          "react/": "https://aistudiocdn.com/react@^19.2.0/",
-          "react": "https://aistudiocdn.com/react@^19.2.0"
-        }
       }
     </script>
-  </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/main.tsx"></script>
+    <script type="module" src="/index.tsx"></script>
   </body>
 </html>
